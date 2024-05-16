@@ -7,9 +7,9 @@ class BankAccount
 	// Data 
 private: 
 
-	float balance;
-	string clientName;
-	string branchName; 
+	float balance=0;
+	string clientName="";
+	string branchName="";
 
 	// Operations/Functions 
     public:

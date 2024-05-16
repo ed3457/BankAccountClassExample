@@ -8,6 +8,9 @@ using namespace std;
 int main()
 {
 	BankAccount b1;
+	b1.setBranchName("Troy");
+	b1.setClientName("Steve Jobs");
+	b1.deposit(1000000);
 
 	b1.printAccountInfo();
 
