@@ -26,6 +26,11 @@ private:
 	void setBranchName(string bn);
 	string getBranchName();
 
+	// constructor(s)
+	BankAccount(); 
+	BankAccount(float amount, string bn, string cn);
+
+
 
 };
 

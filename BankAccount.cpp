@@ -64,3 +64,18 @@ void BankAccount::printAccountInfo()
 	cout << getBalance() << endl;
 
 }
+
+BankAccount::BankAccount()// Default constructor 
+{
+	balance = 0;
+	setBranchName("");
+	setClientName("");
+}
+
+BankAccount::BankAccount(float amount, string bn, string cn)
+{
+	balance = amount;
+	setBranchName(bn);
+	setClientName(cn);
+
+}
