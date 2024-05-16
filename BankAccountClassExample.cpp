@@ -14,6 +14,11 @@ int main()
 
 	b1.printAccountInfo();
 
+
+	BankAccount b2(2000, "Detroit", "Mary");
+
+	b2.printAccountInfo();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
