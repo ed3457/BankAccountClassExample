@@ -18,6 +18,16 @@ int main()
 	BankAccount b2(2000, "Detroit", "Mary");
 
 	b2.printAccountInfo();
+	const int clientCount = 50;
+	BankAccount clientAccounts[clientCount];
+
+	string cname;
+	for (int i = 0; i < 50; i++)
+	{
+		cout << "Please enter the client name:\n";
+		cin >> cname;
+		clientAccounts[i].setClientName(cname);
+	}
 
 }
 
